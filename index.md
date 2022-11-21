@@ -4,12 +4,8 @@ permalink: /
 layout: default
 published: true
 ---
-.container {
-background-image: url(“/Off_Meta_Builds/Background.gif”);
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-size: 100% 100%;
-}
+![bg](https://github.com/UnpixeltGuard/unpixeltguard.github.io/blob/main/Off_Meta_Builds/Background.gif?raw=true)
+
 ## Ahri
 
 <img src="/Off_Meta_Builds/Ahri/240x240.png" width="240" height="240">
