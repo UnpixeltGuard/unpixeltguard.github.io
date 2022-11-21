@@ -7,6 +7,7 @@ body {
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: 100% 100%;
+    color: white;
 }
 .button {
   width: 120px;
@@ -21,7 +22,11 @@ body {
   background-size: cover;
   background-image: url('/Off_Meta_Builds/Ahri/240x240.png');
   background-size: 100%;
+  outline-style: none;
 }
+.button1:hover {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em crimson;
 .champ {
 	display: none;
     style="font-size:0;"
@@ -35,7 +40,7 @@ body {
 		><br><img src="/Off_Meta_Builds/Ahri/Items.png" width="240" height="120"></br>
 	</div>
 
-<input class="button button" onclick=showHide();   
+<input class="button button1" onclick=showHide();   
 </p>
 
 	<script>
