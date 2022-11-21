@@ -8,17 +8,50 @@ body {
   	background-attachment: fixed;
   	background-size: 100% 100%;
 }
+.button {
+  width: 120px;
+  height: 120px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  background-image: url('/Off_Meta_Builds/Ahri/240x240.png');
+}
+.champ {
+	display: none;
+    style="font-size:0;"
 </style>
 </head>
 <h1>Off Meta Build Collection</h1>
 <p>
-<div id="spoilerAhri" style="display:none" style="font-size:0;">
-	<img src="/Off_Meta_Builds/Ahri/240x240.png" width="240" height="240"
-	><img src="/Off_Meta_Builds/Ahri/Runes.png" width="120" height="240"
-	><br><img src="/Off_Meta_Builds/Ahri/Items.png" width="240" height="120"></br>
-</div>
-<input type="image" src="/Off_Meta_Builds/Ahri/240x240.png" alt="Ahri" width="120" height="120"
-onclick="if(document.getElementById('spoilerAhri') .style.display=='none') {document.getElementById('spoilerAhri') .style.display=''}else{document.getElementById('spoilerAhri') .style.display='none'}">
+	<div id="Champion" class="champ">
+		<img src="/Off_Meta_Builds/Ahri/240x240.png" width="240" height="240"
+		><img src="/Off_Meta_Builds/Ahri/Runes.png" width="120" height="240"
+		><br><img src="/Off_Meta_Builds/Ahri/Items.png" width="240" height="120"></br>
+	</div>
+
+<input class="button button" onclick=showHide();   
 </p>
+
+	<script>
+        function showHide() {
+        
+        if(document.getElementById('Champion') .style.display!=='block'){
+            document.getElementById('Champion')
+                    .style.display = "block";
+        	}
+        else{
+            document.getElementById('Champion')
+                    .style.display = "none";
+        	}
+        }
+	</script>
 </body>
 </html>
