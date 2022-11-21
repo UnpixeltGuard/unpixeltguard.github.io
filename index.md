@@ -1,11 +1,8 @@
 ---
-title: Off-Meta-Memes
 permalink: /
 layout: default
 published: true
 ---
-![bg](https://github.com/UnpixeltGuard/unpixeltguard.github.io/blob/main/Off_Meta_Builds/Background.gif?raw=true)
-
 ## Ahri
 
 <img src="/Off_Meta_Builds/Ahri/240x240.png" width="240" height="240">
