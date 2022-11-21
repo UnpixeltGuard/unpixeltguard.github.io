@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 $assetPath :"/assets/images/";
 body {
+  	font-family: Arial, sans-serif;
 	background: url(#{$assetPath}/bg/Background.gif);
 	background-attachment: fixed;
 	background-size: 100% 100%;
