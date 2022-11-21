@@ -4,7 +4,7 @@ layout: default
 published: true
 ---
 <details>
-  <summary style="font-size:4vw">Ahri</summary>
+  <summary style="font-size:4vw"><strong>and this is some important text.</strong></summary>
   	<img src="/Off_Meta_Builds/Ahri/240x240.png" width="240" height="240">
   	<img src="/Off_Meta_Builds/Ahri/Runes.png" width="120" height="240">
   	<br><img src="/Off_Meta_Builds/Ahri/Items.png" width="240" height="120">
