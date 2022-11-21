@@ -2,9 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+$assetPath :"/assets/images/";
 body {
-	background-image: url('/Off_Meta_Builds/Background.gif');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
+	background: url(#{$assetPath}/bg/Background.gif);
 }
