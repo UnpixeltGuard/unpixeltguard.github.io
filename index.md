@@ -4,15 +4,15 @@ layout: default
 published: true
 ---
 <details>
-  <summary style="font-size:4vw"><strong>Ahri</strong></summary>
+  <summary style="font-size:4vw"><strong>ADC Ahri</strong></summary>
   	<img src="/assets/images/Champs/Ahri.gif">
 </details>
 <details>
-  <summary style="font-size:4vw"><strong>Kog'Maw</strong></summary>
+  <summary style="font-size:4vw"><strong>Raging Kog'Maw</strong></summary>
   	<img src="/assets/images/Champs/Kog'Maw.gif">
 </details>
 <details>
-  <summary style="font-size:4vw"><strong>Rakan</strong></summary>
+  <summary style="font-size:4vw"><strong>Aurabot Rakan</strong></summary>
   	<img src="/assets/images/Champs/Rakan.gif">
 </details>
 <details>
