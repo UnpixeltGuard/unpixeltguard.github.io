@@ -18,7 +18,7 @@ Items
 
 Icon = 128x128
 
-Porofessor for Runes
+Leagueofgraphs Runes
 
 Leagueofgraphs for Skills
 670x240
