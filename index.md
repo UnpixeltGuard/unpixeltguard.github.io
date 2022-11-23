@@ -5,7 +5,7 @@ published: true
 ---
 <details>
   <summary style="font-size:4vw"><strong>Ahri</strong></summary>
-  	<img src="/Off_Meta_Builds/Ahri/Ahri.png">
+  	<img src="/assets/images/Champs/Ahri.gif">
 </details>
 <details>
   <summary style="font-size:4vw"><strong>Bel'Veth</strong></summary>
