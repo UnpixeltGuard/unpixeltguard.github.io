@@ -1,0 +1,24 @@
+Avatar
+338x338
+(340x340 Frame)
+
+Skills
+678x242
+(883x240 Frame)
+
+
+Runes
+352x752
+(360x760 Frame)
+
+
+Items
+1322x282
+(1330x290 Frame)
+
+Icon = 128x128
+
+Porofessor for Runes
+
+Leagueofgraphs for Skills
+670x240
