@@ -12,6 +12,10 @@ published: true
   	<img src="/assets/images/Champs/Kog'Maw.gif">
 </details>
 <details>
+  <summary style="font-size:4vw"><strong>Rakan</strong></summary>
+  	<img src="/assets/images/Champs/Rakan.gif">
+</details>
+<details>
   <summary style="font-size:4vw"><strong>Bel'Veth</strong></summary>
   	<img src="/Off_Meta_Builds/Bel'Veth/BelVeth.png">
 </details>
