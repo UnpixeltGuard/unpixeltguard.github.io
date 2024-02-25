@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Self-Hosted Apps Showcase</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/bd-coming-soon.css">
+    <style>
+        .app-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+			max-width: 1000px; /* Set a maximum width for the container */
+			margin-left: auto;
+			margin-right: auto;
+        }
+
+        .app-box {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border-radius: 20px;
+            background-color: #c9c7c7;
+			color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+		
+		.app-box.dark {
+			background-color: #2b2a2a;
+			color: white;
+			text-align: center; /* Center text horizontally */
+			align-items: center; /* Center content vertically */
+			flex-direction: column; /* Stack children vertically */
+		}
+		
+		.app-box a {
+            text-decoration: none;
+            color: inherit; /* Inherit color from parent */
+			text-align: center; /* Center text horizontally */
+			align-items: center; /* Center content vertically */
+			flex-direction: column; /* Stack children vertically */			
+        }
+
+        .app-box:hover {
+            transform: scale(1.15);
+        }
+
+        .app-icon img {
+            width: 180px; /* Adjust the width of the image as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+		
+        .app-icon.large img {
+            width: 120px; /* Adjust the width of the image as needed */
+        }
+		
+        .app-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="min-vh-100 d-flex flex-column">
+    <div class="container">
+        <nav class="navbar navbar-dark bg-transparent">
+            <a class="navbar-brand" href="#">
+            </a>
+        </nav>
+    </div>
+
+    <div class="app-container">
+	    <div class="app-box">
+			<a href="https://adguard.com/en/adguard-home/overview.html">
+				<div class="app-icon large">
+					<img src="https://st.agrd.eu/adguard-4433/img/main.min.svg#shield" alt="Adguard Home">
+				</div>
+				<span class="app-title">AdGuard Home</span>
+			</a>
+        </div>
+		
+        <div class="app-box dark">
+			<a href="https://jellyfin.org/">
+				<div class="app-icon">
+					<img src="https://jellyfin.org/images/logo.svg" alt="JellyFin">
+				</div>
+			</a>
+		</div>
+		
+		<div class="app-box">
+			<a href="https://mealie.io/">
+				<div class="app-icon large">
+					<img src="https://getumbrel.github.io/umbrel-apps-gallery/mealie/icon.svg" alt="Mealie">
+				</div>
+				<span class="app-title">Mealie</span>
+			</a>
+        </div>
+		
+        <div class="app-box dark">
+			<a href="https://docs.linuxserver.io/images/docker-steamos/#gameplay">
+				<div class="app-icon large">
+					<img src="https://cdn.akamai.steamstatic.com/store/steamos/landing_steamos.png" alt="SteamOS">
+					<span class="app-title">SteamOS</span>
+				</div>
+			</a>
+        </div>
+		
+		<div class="app-box">
+			<a href="https://github.com/dani-garcia/vaultwarden">
+				<div class="app-icon large">
+					<img src="https://lab.uberspace.de/_images/vaultwarden.png" alt="Vaultwarden">
+				</div>
+				<span class="app-title">Vaultwarden</span>
+			</a>
+        </div>
+		
+		<div class="app-box dark">
+			<a href="https://lubelogger.com/">
+				<div class="app-icon">
+					<img src="https://lubelogger.com/lubelogger_logo.png" alt="LubeLogger">
+				</div>
+			</a>
+        </div>
+		
+        <div class="app-box">
+			<a href="https://excalidraw.com/">
+				<div class="app-icon">
+					<img src="https://user-images.githubusercontent.com/23306911/71765346-d3966180-2ef3-11ea-8092-356daf4cbc6b.png" alt="Excalidraw">
+				</div>
+			</a>
+        </div>
+		
+        <div class="app-box dark">
+			<a href="https://homarr.dev/">
+				<div class="app-icon">
+					<img src="https://homarr.dev/img/logo.png" alt="Homarr">
+				</div>
+				<span class="app-title">Homarr</span>
+			</a>
+        </div>
+		
+		<div class="app-box">
+			<a href="https://jmusicbot.com/">
+				<div class="app-icon large">
+					<img src="https://jmusicbot.com/assets/images/logo.png" alt="JMusic">
+				</div>
+				<span class="app-title">JMusic</span>
+			<a/>
+        </div>
+		
+		<div class="app-box dark">
+			<a href="https://unraid.net/">
+				<div class="app-icon large">
+					<img src="https://craftassets.unraid.net/uploads/logos/unraid-stacked-dark.svg" alt="Unraid">
+				</div>
+			</a>
+        </div>
+		
+        <div class="app-box">
+			<a href="https://github.com/fail2ban/fail2ban">
+				<div class="app-icon large">
+					<img src="https://avatars.githubusercontent.com/u/1087378?s=200&v=4" alt="fail2ban">
+				</div>
+				<span class="app-title">fail2ban</span>
+			</a>
+        </div>
+		
+		<div class="app-box dark">
+			<a href="https://github.com/Skesov/AutoDelete">
+				<div class="app-icon large">
+					<img src="https://raw.githubusercontent.com/Skesov/AutoDelete/master/logo.png" alt="AutoDelete">
+				</div>
+				<span class="app-title">AutoDelete</span>
+			</a>
+        </div>
+		
+		<div class="app-box">
+			<a href="https://github.com/meeb/tubesync">
+				<div class="app-icon large">
+					<img src="https://raw.githubusercontent.com/meeb/tubesync/main/tubesync/common/static/images/tubesync.png" alt="tubesync">
+				</div>
+				<span class="app-title">tubesync</span>
+			</a>
+        </div>		
+
+		<div class="app-box dark">
+			<a href="https://nginxproxymanager.com/">
+				<div class="app-icon">
+					<img src="https://nginxproxymanager.com/logo.png" alt="NginxProxyManager">
+				</div>
+			</a>
+        </div>	
+
+		<div class="app-box">
+			<a href="https://github.com/skeeto/endlessh">
+				<div class="app-icon">
+					<img src="https://mastodon.linuxserver.io/system/site_uploads/files/000/000/005/@1x/8e1c811974f0ddb6.png" alt="Endlessh">
+				</div>
+				<span class="app-title">endlessh</span>
+			</a>
+        </div>			
+        <!-- Add more app boxes here for each of your self-hosted apps -->
+    </div>
+</body>
+
+</html>
+

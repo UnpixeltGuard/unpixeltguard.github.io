@@ -13,23 +13,26 @@
 </head>
 
 <body class="min-vh-100 d-flex flex-column">
-   
-    
-        <div class="container">
-            <nav class="navbar navbar-dark bg-transparenet">
-                <a class="navbar-brand" href="#">
-                </a>
-            </nav>
-        </div>
-    
+    <div class="container">
+        <nav class="navbar navbar-dark bg-transparenet">
+            <a class="navbar-brand" href="#">
+            </a>
+        </nav>
+    </div>
+
     <main class="my-auto">
         <div class="container">
             <h1 class="page-title">Coming Soon</h1>
-            <p class="page-description">"Just a random landing page for the Domain" 
-            </p>
-            <p>Stay connected</p>
+            <p class="page-description">"Just a random landing page for the Domain"</p>
+            <button id="goToSubsite" class="btn btn-primary">Check out these Apps</button>
         </div>
     </main>
+
+    <script>
+        document.getElementById('goToSubsite').addEventListener('click', function() {
+            window.location.href = './projects/projects.html'; // Replace 'subsite.html' with the URL of your sub-site
+        });
+    </script>
 </body>
 
 </html>
